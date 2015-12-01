@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/sign" method="POST">
+	<h2>Write your comment here</h2>
+	Name: 
+	<br>
+	<textarea value= "{{author}}" name="author_name"></textarea>
+	</br>
+	comment:
+	<br>
+	<textarea value="{{comment}}" name="commments" rows="3" cols="60"></textarea>
+	<br>
+	<input type="submit" value="Post Comment"> 
+
+
+</form> 
+
+<br>
+<br> 
+<h2>Write Comment Here!!!</h2> 
+	{% for author in author_name %}
+		<li>{{author | safe}}</li>
+	{% endfor %}
+
+
+
+{% endblock %}
