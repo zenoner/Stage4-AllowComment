@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Udacity Templates(Project 4)</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<style>
+		 body{
+        font-family:helvetica;
+      }
+      
+      .TOC {
+        list-style:none;
+        
+      }
+      
+      ul {
+        list-style-type: none;
+      }
+      
+      h1{
+        text-align:center;
+        font-size: 60px;
+        
+      }
+      
+      .lesson {
+        background-color:#004c99;
+        border-radius: 20px;
+        color: white;
+      	padding: 10px;
+	      margin: 10px auto;
+      }
+      
+      h2{
+        margin:10px;
+        text-align: center;
+        font-size:40px;
+      }
+      
+      h3{ 
+        margin-left: 10px;
+        font-size:30px;
+      }
+      
+      p{
+        margin:10px;
+      }    
+
+  
+      .Part1 {
+        color:white;
+        font-size:30px;
+      }
+      
+      .PartBox {
+        background-color:#66b2ff;
+      }
+      
+      .ConcertBox {
+    background-color: #DFEAF1;
+  	padding: 4px;
+  	margin: 10px;
+  	border-radius: 4px;
+  	color: black;
+      }
+
+      .Concert-Title {
+    text-align: left;
+    margin:10px;
+    font-size:40px;
+        }
+
+      .description ol {
+      font-size: 40px;
+
+      }
+
+     table, td, th {
+    border: 0x solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+		</style>
+	</head>
+
+	<body>
+   <h1>Udacity Nanodegree: Intro to Programming</h1>
+  <div class="lesson"> 
+    <h2>Stage 1: Web Development</h2>
+  <h3>Unti 1: Basics of the Web</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          The Web
+    </div>
+    <div class="Description">
+      <p> The web is programed or created by using HTML files that are linked by <b>HTML</b>.</p> 
+      <p><b>HTML (Hyper Text Markup Language)</b> is a basic for the web. The computer program that operates on the computer  display HTML files that is found on the web, to link to the internet, then it connects to the servers where the host carries the files that make up the websites. 
+      </p>
+    </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          HTML
+    </div>
+    <div class="Description">
+      <p>
+        <b>HTML</b> can create the text content, markup, and references to other documents, such as images & videos, link to another web page. 
+      </p>
+
+      <p><b>HTML</b> markup consists of an opening tag and closing tags. The entire piece of code is called an <i>element</i>. Attributes are listed after the elements, but before the corresponding value.
+Images and links are self-closing and are considered void tags, because they don't contain content.  </p>
+    </div>
+    </div>
+    
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          More information about HTML
+    </div>
+    <div class="Description">
+      <p><b>HTML Whitespace</b> can turn everything into one line. Using <i>br tag</i> can seperate the content into multiple lines. Using <i>p tag</i> is another option but it is great for paragraphy. </p>
+      <p><i>Inline and Block elements</i> are used to seperate content. An example of an inline element would be br tag because it just adds a break in the HTML line and wraps remaining text to the next line. An example of a block element would be p tag because it creates an invisible box around the content. Block elements also have a height and width. </p>   
+    </div>
+    </div>
+    
+    <h3>Unit 2: Creating a Structured Document with HTMl</h3>
+    <div class="ConcertBox">
+      <div class="Concert-Title">
+        The Page Structure 
+      </div>
+      <div class="Description">
+        <p> The website is alike building : The HTML is <ins>the structure</ins>, CSS is <ins>the styling</ins>, and Javascript is <ins>the functional objects</ins>. 
+        <p>
+<p>HTML uses elements in a tree like structure, from which other elements branch.
+ </p>
+
+ <p>Here is the image on what HTML Tree with CSS elements does look alike:</p>
+
+ <img src="http://imageshack.com/a/img633/7084/lxy0BA.png" alt="HTML Structure" style='width:100%'>
+
+ <p>When in the developer mode in a browser, you can click through the HTML to see how the elements are nested as well as viewing any styling that had to been added to that particular element.</p>
+      
+      </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          HTML, CSS, and DOM
+    </div>
+    <div class="Description">
+      <p>HTML is a language with syntax , CSS is a language that uses syntax to change and design how elements look on the page.</p>
+<p>DOM (Document Object Model) which, is the standard convention for representing and interacting with HTML elements.</p>
+    <p>Tags are part of elements that make up an HTML tree(See image above). They know to do this through DOM (Document Object Model) which, is the standard convention for representing and interacting with HTML elements. The tree that we view in developer mode is the DOM tree that the browser built from the HTML document.</p>
+      <ul>
+          <li>Each tag has an element that describes what type it is (e.g. "p" for paragraph)</li>
+          <li>Each tag can have attributes with values</p>
+      </ul>  
+    <p>With CSS you could say all "h1" elements that belong to class “article” should be dark blue. To tie structure and style together the HTML doc can provide the browser wth what style to use and where to get it from.</P>
+
+    </div>
+  </div>
+  
+<div class="ConcertBox">
+    <div class="Concert-Title">
+          The Boxes 
+    </div>
+    <div class="Description">
+      <p>Even if a shape is a circle, in HTML it’s still a box. If you right click and inspect element of a circle, it will show you where the shape is in the HTML document. And it will show a highlighted area of a box on the webpage, so what makes it a circle? ....</P>
+      <p><b>Border Radius</b> Property</p>
+      <p>By thinking of things in boxes it’s easier to rearrange your website. A grid in background makes sure everything is aligned. When plotting your squares and layout of HTML structure, remember: <u><b>START BIG AND GO SMALLER</b></u></p>
+
+    </div>
+  </div>
+
+ 
+    <h3>Unit 3: Adding CSS Style to HTML</h3>
+    <div class="ConcertBox">
+      <div class="Concert-Title">Cascading
+        Understanding Cascading Style Sheet, CSS
+      </div>
+      <div class="Description">
+     <p>The CSS has its own laws.  means that laws are applied to the elements that they directly match. </p>
+     <p>When you identify a class or id tag of the elements that you want to match. Then, decide what you want to do with, and what property values to replace with different ones</p>. 
+      </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          Selectors
+    </div>
+    <div class="Description">
+      <p><b>Selectors</b> is where allows you to target specific HTML elements and apply style to them. This is helpful to use CSS to avoid unnecessary repetition that waste time. There are different types of Selectors:</p>
+         <ol>
+           <li> <b>ID Selector</b> <br/>
+           Most powerful type of selector, beat out other types of selectors and styles. Having lower specificity selectors are easier to override.</li>
+           <li>Class Selectors <br/>
+           Most useful and versatile. Well supported in all browsers. Add multiple classes separated by space on HTML elements. Also JavaScript stuff you can do specifically for manipulating classes.</li>
+           <li>Tag Selectors <br/>
+           Most useful when changing properties that are unique to HTML element. Like setting the list style on a "ul" or tab-size on a "pre". Typically more useful to have class define styling that you can use on any HTML element. </li>
+           <li>Attribute Selectors <br/>
+           More useful than classes because they have the same specificity value, but they can be any attribute, not just "class". They also can have a value you can select by.</li> 
+           <li>Positional Selectors <br/>
+           Several positional selectors beyond: nth-child; using simple expressions (like 3n="every third") you can select elements based on their position in the HTML.</li> 
+           <li>Pseudo Selectors <br/>
+           ":empty" is one of many pseudo selectors, which you can recognize by the ":". They typically represent something you couldn't know just by the element and attributes alone. *These are different than pseudo elements, which are recognizable by "::"-they are responsible for adding things to the page by the things they select.</li>
+        </ol>
+    </div>
+    </div>
+  
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Revaluate the BOX
+    </div>
+    <div class="Description">
+      <p>We know that everything on a webpage is made up of a box.</p> <p>Which consists of 4 parts:
+Content- this is the image or text that appears on the website, comparable to the nucleus of the box, the other layers serve to protect it so other things don't get to close or overlap
+Padding- this clears an area around the content, is affected by background color, and is the space that protects the content directly
+Border- inherits color property of box, incases the padding and content
+Margin- goes around border, outer most layer, provides space between boxes, transparent.</p>
+    </div>
+    </div>
+      <div class="ConcertBox">
+      <div class="Concert-Title">
+          Code, Test, & Refine
+    </div>
+    <div class="Description">
+    <p>Compare your HTML document to the design you were created. How to know what to change?
+Get page structure right, by visually boxifying it
+Look for natural boxes
+Move on to tags(make heading h1)
+Look for repeated styles & semantic elements
+Size of boxes, how big, and how to position
+Write html
+Apply styles(biggest to smallest)
+Fix things!
+      Repeat steps above till it looks like the design mock up! </p> 
+      <p>To verify code, go to the following links: <a href="http://validator.w3.org/">HTML checker</a> and <a href="https://jigsaw.w3.org/css-validator/">CSS checker</a></p>
+    </div>
+    </div> 
+  </div> <!--The End of Box -->
+  
+    
+  <div class="lesson"> 
+    <h2>Stage 2: Telling Computer What to Do  </h2>
+    <h3>Unti 4: Introduction to "SERIOUS" Programming</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          What is Programming?
+    </div>
+    <div class="Description">
+      <p>Dave demonstrated an understanding of computer, computer program, and the web.</p>
+      <p> A web crawler finds web pages for the search engine by starting a seed page and following links on that page to other pages, each of those, link to new web pages which can have new links to other pages. As we follow the links we'll find more and more web pages building a collection of data that we'll use for our search engine. A link is a special type of text in that web page.</p>
+      <p><b>Computer</b> is a machine that can execute a program- with the right program, a computer can do any mechanical computation you can imagine</p>
+      <p><b>Program</b> is a very precise sequence of steps- since the computer is just a machine, the program must give the steps in a way that can be executed mechanically- that is, the program can be followed without any thought. </p>
+      <p><b>Programming</b> is a language designed for producing computer programs- a good programming language makes it easy for humans to read and write programs that can be executed by a computer
+      Python</p>
+      <p><b>A Programming Language</b> is the programs that we write in the Python language will be the input to the Python interpreter, which is a program that runs on the computer- the Python, interpreter reads our programs and executes them by following the rules of the Python language </p>
+
+    </div>
+    </div>
+  
+   
+    
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Understand of Functions
+    </div>
+    <div class="Description">
+      <p>Procedures(Functions) are a way to package code so it can be reused with different inputs. A procedure takes in inputs, does some processing, and produces outputs.Procedural abstraction is a way to write code once that works on any number of different data values. By turning our code into a procedure, we can use that code over and over again with different inputs to get different behaviors. To make a procedure we need the "name" of the procedure followed by parenthesis with the list of inputs inside of them. To show output, we must use "return" in code block. </p>
+      <p>Here is examples:</p>
+      <ul>
+        <li>def name(parameters): block of code</li>
+        <li>def name(input,input,...): code</li>
+        <li>return a+b, return a[1:], return "U"+a</li>
+      </ul>
+    </div>
+    </div> 
+
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+      Basic Programming Knowledge
+    </div>
+    <div class="Description">
+      <p>There is a screen: editor & output window that we can see the value of something in Python by using print like this: </p>
+      <ol>
+        <li>Print 3 >>> 3 </li>
+      </ol> 
+      <p>The expression after the print can be any value Python expression. Here are some examples:</p>
+      <ol>
+        <li>1 + 1 >>> 2</li>
+        <li>2 - 1 >>> 1</li>
+        <li>2 * 6 >>> 12</li> 
+      </ol> 
+      <p>We can compose expressions to make more complicated expressions like:</p>
+      <ol>
+        <li>52 * 3 + 12 * 9 >>> 1422</li>
+      </ol> 
+      <p>We can also use parentheses to group expressions:</p>
+      <ol>
+        <li>52 * (3+12) * 9 >>> 7020</li>
+      </ol> 
+    </div>
+    </div>
+  </div>
+  
+  <div class="lesson"> 
+    <h2>Stage 3 Intro: Add Videos to Your Page</h2>
+    <h3>Unit 5: Overall Understanding of OOP, vocabulary term, and introduction of Abstraction</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+      Object Oriented Programming
+    </div>
+    <div class="Description">
+      <p><b>The Object Oriented Programming (OOP)</b> is a programming that focused on using objects and approached to problem solving where all computations that  are carried out using objects. It can operate the data structures or attributes that makes OOP as a valuable tool for thinking about large programming projects. The reason is because it has a way to handle the rapidly increasing size and complexity of software system and to make it easier to modify these large and complex system over time.</p>
+      <p>Here is an example. Think of a project management application. You would have a status object, cost object, and client object. Those objects would work together to provide the output that you want for your project management application to have.</p>
+    </div>
+    </div>
+  
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          Appropriate Use of Vocabulary 
+    </div>
+    <div class="Description">
+<table>
+  <tr>
+    <th>1. Object</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>It is a fundamental building blocks of application from OOP.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>It is a self-contained component that contain properties and methods that needed to make a certain type of data useful. The methods are what it can do and operate while objects are what it knows. </td>
+  </tr>
+  <tr>
+    <td style="text-align: right">C. </td>
+    <td>For example, the object would be a person. A person has a name. That would be considered a property of the person. A person is able to do something, such as walking or driving. This would be considered a method of the person.</td>
+  </tr>
+  <tr>
+    <th>2. Class</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>This is a blueprint or set of instruction to build a specific type of object. Every object is build from a class. Each class should be designed and programmed to accomplish one. </td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>For example: Think about classes, like baking a cake. A class is like a recipe for chocolate cake. The recipe itself is not a cake. It you do what the recipe tell you to do then you have an edible cake. That edible cake is an instance of the chocolate cake class. </td>
+  </tr>
+  <tr>
+    <th>3. Instance</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>A specific realization of any object.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>It is different between object and instance. An object is a generic thing while an instance is a single object that has been created in memory. </td>
+  </tr>
+   <tr>
+    <th>4. Method</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>A procedure associated with a class. </td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>This defines the behavior of the objects that are created from the class.
+</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">C. </td>
+    <td>This is an action that object is able to operate.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">D. </td>
+    <td>For example, an object of the type person, created using the person class. Method associated with this class could consist of things like walking and driving. Methods are sometimes confused with functions, but there are distinct. </td>
+  </tr>
+  <tr>
+    <th>5. Module</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>A component of a larger system that interacts with the rest of the system in a simple. The idea is that module can be “plugged into” a system. </td>
+  </tr>
+   <th>6. Library</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>A collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>For example, I studied OOP because it has library called Python Library Standard. It is alike document where you can find a solution for problem. It was good to me because I could learn how the computer programmer works.</td>
+  </tr>
+   <th>7. Variable</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>It is the usually way to reference the stored value. </td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>It can represent numeric value, characters, strings, or memory data.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">C. </td>
+    <td>Variable play an important role in computer programming because they enable programmers to write flexible programs. Rather than entering data directly into a program, a programmer can use variable to represent the data. </td>
+  </tr>
+   <th>8. Inheritance</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>It is used to indicate that one class will get most of all of its features from a parent class.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>When an object or classes is based on another object or class, using the same simple object to maintain the same behavior. </td>
+  </tr>
+   <th>9. Method overriding</th>
+  </tr>
+  <tr>
+    <td style="text-align: right;">A.</td>
+    <td>It  is a very important part of OOP since it is feature that makes inheritance exploit its full power. Through method overriding a class may “copy” another class, avoiding duplicated code, and at the same time enhance or customize part of it. Method overriding is thus strict part of the inheritance mechanism.</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">B.</td>
+    <td>Method overriding is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its susperclasses or parent classes </td>
+  </tr>
+  
+</table>
+    </div>
+    </div>
+    
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Introduction of “Abstract Thinking” 
+    </div>
+    <div class="Description">
+      <p>The idea of abstraction is a really powerful one in programming because it allows us to focus on the program that we actually want to write which is the break program, and it empowers to use those functions by reading their documentation.</p>
+      <p>In order to develop a website, the programmer must remind himself having an abstract thinking that he is able to develop website by using and reading the HTML and CSS documentation. HTML language is completely different to Python because HTML is a markup language while Python is an advanced computer language..  There are great HTML/CSS documentation to apply the HTML file. This do not required to memorize the HTML language. Just reminding and understand how it operated those HTML CSS elements. For example, developer has to understand the HTML template before customizing the color details for the website by using CSS elements. </p>
+      <p>Also, there is another things that students had learned using the abstract thinking. For example, Javascript language is a computer language that makes action in the website. Developer required to understand the JS language how it operate and results before making a website with inactive features.</p>
+    </div>
+    </div>
+    
+    <div class="lesson"> 
+    <h2>Stage 4 Intro: Allow Comments </h2>
+    <h3>Unit 4: Submit Let Anyone Modify</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          Understanding of Servers 
+    </div>
+    <div class="Description">
+     <p>A server is a running device of an application that can capable of accepting request from the client and giving responses.</p>
+     <p>A servers can run on any computers including dedicated computers.</p>
+     <p>Here is the notes about GET and POST methods that are how the servers handle request and deliver the responses:</p>
+     <p>GET method is the most often for requesting a document from server.</p>
+     <p>POST method is when the data was send to the server.</p>
+     <p>A web browser uses the communication by making a GET (request) from server for a specific resources using HTTP and the server response with the content of resource or error message (404) if the POST method is error and unable to do so.</P>
+    </div>
+    </div>
+  
+   
+    
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Importance of Validating Input 
+    </div>
+    <div class="Description">
+     <p>The meaning of validating is to verity on the Server side.</p>
+     <p>Validating input is the outer defensive perimeter for the web application. That can prevent the web application from being hacked.</p>
+    <p>The hackers could make problem consequence from incorrect input validation that lead to all sorts of problem and vulnerabilities.</p>
+    <p>The soultion for this is to use Python string substitution to generate complex strings from data. It will verify the user enter, recognize, and complain if the data is bad. When the data is bad, then the error message appears and ask user to re-type.</p> 
+    <p>This is absolutely critical to improve the web appication security</p>
+
+    </div>
+    </div> 
+
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+      HTML Templates and Abstraction
+    </div>
+    <div class="Description">
+      <p>Having HTML templates is great to be separate different types of code for the programmers. Why avoiding repetition important is that the programmers will make them more readable code, more secures websites, and HTML that is easy to modify. Without them, the programmers will make a extensive HTML file that makes them enormous to read the code. How the programmers to avoid repetition is to be separated different type of files and use Jinja2. Jinja2 is a full features template engine for Python. 
+</p> 
+    </div>
+    </div>
+  </div>
+
+
+		{% block content %}
+		{% endblock %}
+	</body>
+
+</html>
